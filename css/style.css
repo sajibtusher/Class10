@@ -1,0 +1,331 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a; a:hover{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+.header-section{
+	width: 100%;
+	background: #F0FFF0;
+	padding: 15px 0;
+}
+
+.header-section .navbar-brand img{
+	
+}
+
+.header-section ul{
+	
+}
+
+.header-section ul li{
+	padding-left: 30px;
+}
+
+.header-section ul li a{
+	text-transform: capitalize;
+	color: black;
+	font-size: 16px;
+   font-weight: 600;
+}
+
+.header-section .btn{
+	font-family: 'Roboto', sans-serif;
+   padding: 10px 35px;
+   border-radius: 50px;
+   background: #21B573;
+   border: #21B573;
+   color: white;
+   font-weight: 400;
+   margin-top: -5px;
+   transition: 0.5s;
+}
+
+.header-section .btn:hover{
+	background: #8E44AD;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+
+.banner-section{
+	width: 100%;
+	padding: 30px 0;
+	background: #F0FFF0;
+}
+
+.banner-section .title{
+
+}
+
+.banner-section .title h6{
+	color: #FD511A;
+	font-size: 16px;
+	padding-top: 65px;
+	line-height: 50px;
+}
+
+.banner-section .title h1{
+	font-size: 48px;
+	font-weight: 700;
+	padding-right: 210px;
+	line-height: 70px;
+}
+
+.banner-section .title h1 span{
+	color: #21B573;
+}
+
+.banner-section .title p {
+	color: #000;
+	font-weight: 700;
+	line-height: 36px;
+	padding-right: 215px;
+	margin: 30px 0px 40px 0px;
+}
+
+.banner-section .title .btn{
+	font-family: 'Roboto', sans-serif;
+   padding: 8px 35px;
+   border-radius: 50px;
+   background: #21B573;
+   border: 1px solid #000;
+   color: white;
+   font-weight: 400;
+   transition: 0.5s;
+}
+
+.banner-section .title .btn:hover{
+	background: #8E44AD;
+	transition: 0.5s;
+}
+
+.banner-section .img{
+   width: 100%;
+}
+
+.banner-section .img img{
+	width: 100%;
+}
+
+
+
+.books-section{
+	padding: 60px 0;
+}
+
+.books-section .books{
+	background: #F8FFFB;
+	text-align: center;
+	border-radius: 10px;
+	margin: 0px 20px;
+	transition: 0.5s;
+}
+
+.books-section .books:hover{
+	background: #fff;
+	box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.10);
+	transition: 0.5s;
+}
+
+.books-section .books img{
+	width: 66px;
+   height: 85px;
+   margin: 40px 25px 25px 25px;
+}
+
+.books-section .books h5{
+	font-size: 24px;
+    font-weight: 500;
+    color: #413960;
+}
+
+.books-section .books p{
+	font-size: 16px;
+   font-weight: 400;
+   color: #585859;
+   padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+.courses-section{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.courses-section .title{
+	 text-align: center;
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+    margin-bottom: 50px;
+}
+
+.courses-section .courses{
+	box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.10);
+	padding: 20px 20px 0px 20px;
+   border-radius: 15px;
+   margin: 20px 23px;
+}
+
+.courses-section .courses img{
+	width: 270px;
+	padding-bottom: 25px;
+}
+
+.courses-section .courses h3{
+	font-weight: 500;
+	font-size: 24px;
+	color: #413960;
+}
+
+.courses-section .courses p{
+	font-weight: 400;
+	font-size: 16px;
+	color: #585859;
+}
+
+.courses-section .courses .btn{
+	font-family: 'Roboto', sans-serif;
+   padding: 8px 35px;
+   border-radius: 50px;
+   background: #21B573;
+   border: #21B573;
+   color: white;
+   font-weight: 400;
+   transition: 0.5s;
+}
+
+.courses-section .courses .btn:hover{
+	background: #8E44AD;
+	transition: 0.5s;
+}
+
+.courses-section .courses .icon{
+	width: 24px;
+	margin: 20px 6px;
+   padding: 0;
+}
+
+
+
+.testimonial-section{
+	width: 100%;
+   padding: 30px 0;
+}
+
+.testimonial-section .title{
+	width: 100%;
+   text-align: center;
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 70px;
+}
+
+.testimonial-section .img{
+	width: 100%;
+	margin-bottom: 80px;
+}
+
+.testimonial-section .img img{
+	width: 120px;
+	height: 120px;
+	margin-left: 50px;
+}
+
+.testimonial-section .text{
+
+}
+
+.testimonial-section .text p{
+	font-size: 17px;
+	font-weight: 400;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+.footer-section{
+	width: 100%;
+	background: #282531;
+	padding: 60px 0 30px 0;
+}
+
+.footer-section p{
+	font-size: 16px;
+   font-weight: 400;
+   text-transform: capitalize;
+   color: white;
+   padding: 0px 80px 0px 50px;
+}
+
+.footer-section h4{
+	font-weight: 700;
+   font-size: 20px;
+   text-transform: capitalize;
+   color: white;
+}
+
+.footer-section ul{
+
+}
+
+.footer-section li{
+	font-size: 16px;
+   font-weight: 400;
+   text-transform: capitalize;
+   color: white;
+}
+.footer-section .Copyright{
+	text-align: center;
+	color: #CDCDCD;
+	font-size: 16px;
+   font-weight: 400;
+   padding-top: 100px;
+}
+
+
+
+
+
